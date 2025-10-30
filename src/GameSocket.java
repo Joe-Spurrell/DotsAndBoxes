@@ -13,7 +13,7 @@ public class GameSocket {
 	/** Invalid move score/result constant */
 	final static int INVALID_MOVE = -1;
 	/** Opponent type constants. */
-	public static final int ANY = 0, RANDOM_BOT_FIRST = -1, RANDOM_BOT_SECOND = -2, RIVEST_BOT_SECOND = -3;
+	public static final int ANY = 0, RANDOM_BOT_FIRST = -1, RANDOM_BOT_SECOND = -2;
  
 	
 	/** The sockets and its associated input and output data streams. */
