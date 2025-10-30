@@ -28,7 +28,7 @@ public class Demo {
 		//first message should be PLEASE_PLAY since bot is second
 		int[] msg = gs.readMessage(); 
 		if (msg[0] != GameSocket.PLEASE_PLAY) {
-			throw new Exception("NOT MY TURN?");
+			throw new Exception("NOT MY  TURN?");
 		}
 		
 		//While the game is active
